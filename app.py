@@ -1,6 +1,5 @@
 import os
 import sys
-import sqlite3
 from langchain import HuggingFaceHub
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
