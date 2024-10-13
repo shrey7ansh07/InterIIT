@@ -13,7 +13,7 @@ from langchain import PromptTemplate, HuggingFaceHub, LLMChain
 import warnings
 warnings.filterwarnings("ignore")
 import pickle
-from google.colab import drive
+
 # drive.mount('/content/drive'
 from langchain_community.document_loaders import JSONLoader
 import json
