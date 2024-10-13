@@ -1,0 +1,10 @@
+langchain
+huggingface_hub
+tiktoken
+ctransformers
+accelerate
+sentence_transformers
+faiss-cpu
+InstructorEmbedding
+langchain-community
+chromadb
