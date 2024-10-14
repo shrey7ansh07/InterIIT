@@ -75,16 +75,9 @@ def load_vector_store():
 
 
 
-try:
-    # Attempt to load the vector store
-    vector_store = load_vector_store()
-except sqlite3.OperationalError as e:
-    if 'no such table: collections' in str(e):
-        # Initialize the database schema if the table is missing
-        # Retry loading the vector store
-        vector_store = load_vector_store()
-    else:
-        raise
+
+vector_store = load_vector_store()
+
 
 
 
