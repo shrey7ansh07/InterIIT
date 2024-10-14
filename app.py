@@ -46,7 +46,18 @@ embedding_model_name = "sentence-transformers/all-mpnet-base-v2"
 model_kwargs = {"device": "cpu"}
 @st.cache_resource
 
+import gdown
 
+# File ID from Google Drive shareable link
+file_id = "1abCdefGhijKlmnopQRstu"
+
+# Create the download URL and download the file
+gdown.download(f"https://drive.google.com/uc?id={file_id}", 'db.zip', quiet=False)
+
+# Unzip the file
+import zipfile
+with zipfile.ZipFile('db.zip', 'r') as zip_ref:
+    zip_ref.extractall('./db')
 # def initialize_database():
 
 #     chromadb.api.client.SharedSystemClient.clear_system_cache()
