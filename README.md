@@ -11,6 +11,8 @@
 
 The Streamlit app serves as an interactive interface for users to explore and utilize machine learning models, specifically designed for natural language processing tasks. This application leverages libraries such as LangChain and Hugging Face for embeddings and various functionalities.
 
+![Logo](./images/flow.png)
+
 ## Installation
 
 To set up the application, follow these steps:
