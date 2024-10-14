@@ -49,7 +49,7 @@ model_kwargs = {"device": "cpu"}
 import gdown
 
 # File ID from Google Drive shareable link
-file_id = "1abCdefGhijKlmnopQRstu"
+file_id = "16NBOpxi3o0ld4P3M3vo5PSpNo37DfjXQ
 
 # Create the download URL and download the file
 gdown.download(f"https://drive.google.com/uc?id={file_id}", 'db.zip', quiet=False)
