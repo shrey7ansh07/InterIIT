@@ -64,7 +64,7 @@ model_kwargs = {"device": "cuda"}
   
 def load_vector_store():
     db = "./db"
-    file_path = '/corpus.json'  # Adjust path as needed
+    file_path = 'corpus.json'  # Adjust path as needed
     json_data = read_json_file(file_path)
     docs = process_json_to_documents(json_data)
     split_docs = split_documents(docs)
