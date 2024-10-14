@@ -1,7 +1,3 @@
-Here’s an updated and improved version of your `README.md`:
-
----
-
 # Hog RAGger
 
 ## Table of Contents
@@ -64,6 +60,14 @@ To set up the Hog RAGger app, follow these steps:
     ```bash
     pip install -r requirements.txt
     ```
+###Optional - Incase you only want to see the output.
+    - Open the Google Colab Notebook 
+    - Switch to GPU.
+    - Put the Corpus.json in your colab window and update directory.
+    - Put your HuggingFace API Token
+    - Run all the cells
+    
+ ## Colab Notebook - [HogRAGger](https://colab.research.google.com/drive/15cVg4oBdqbk39GAbRfvvP5sKqBMG8fWV?usp=sharing)
 
 ## Usage
 
@@ -119,4 +123,5 @@ The following libraries are essential for running the application and can be ins
 - `chromadb`
 - `pysqlite3`
 
+*Note that first time running takes time due to model loading*
 **Note**: Ensure that you have Python 3.7 or higher installed to avoid compatibility issues.
