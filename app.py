@@ -42,7 +42,7 @@ file_path='corpus.json'
 json_data = json.loads(Path(file_path).read_text())
 
 embedding_model_name = "sentence-transformers/all-mpnet-base-v2"
-model_kwargs = {"device": "cpu"}
+model_kwargs = {"device": "gpu"}
 @st.cache_resource
 
 
