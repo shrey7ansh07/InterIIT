@@ -1,7 +1,4 @@
 import os
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import sys
 from langchain import HuggingFaceHub
 from langchain.text_splitter import CharacterTextSplitter
