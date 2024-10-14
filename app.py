@@ -38,7 +38,7 @@ import chromadb
 
 
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-file_path='/corpus.json'
+file_path='corpus.json'
 json_data = json.loads(Path(file_path).read_text())
 
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
