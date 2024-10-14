@@ -8,3 +8,4 @@ faiss-cpu
 InstructorEmbedding
 langchain-community
 chromadb
+pysqlite3-binary
