@@ -43,7 +43,7 @@ json_data = json.loads(Path(file_path).read_text())
 
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 embedding_model_name = "sentence-transformers/all-mpnet-base-v2"
-model_kwargs = {"device": "cuda"}
+model_kwargs = {"device": "cpu"}
 @st.cache_resource
 
 
