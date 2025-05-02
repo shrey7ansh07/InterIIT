@@ -37,7 +37,7 @@ import chromadb
 # from pyngrok import ngrok
 
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "Add your own key"
 file_path='corpus.json'
 json_data = json.loads(Path(file_path).read_text())
 
